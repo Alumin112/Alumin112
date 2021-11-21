@@ -46,6 +46,6 @@ fn main() {
         .extra_stuff
         .insert("uses internet explorer", false);
     
-    println!("{:?}", bunch_of_cells);
+    println!("{:#?}", bunch_of_cells);
 }
 ```
