@@ -1,23 +1,7 @@
-### Hi there 👋
-
-<!--
-**Alumin112/Alumin112** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 ```rs
 use std::collections::HashMap;
 
+#[derive(Debug)]
 struct Programmer<'a> {
     braincells: u32,
     loves_rust: bool,
@@ -61,5 +45,7 @@ fn main() {
     bunch_of_cells
         .extra_stuff
         .insert("uses internet explorer", false);
+    
+    println!("{:?}", bunch_of_cells);
 }
 ```
